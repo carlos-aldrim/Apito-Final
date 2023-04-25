@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('src/assets/fonts/LeagueSpartan-ExtraLight.ttf');
+}
+
+.btn-index{
+    @apply shadow-md w-40 h-10 px-6 transition duration-300 text-xl mt-6
+}
+.btn-index-preto{
+    @apply bg-preto text-white rounded-md
+}
+.btn-index-verde{
+    @apply bg-verde-claro text-white
+}
+.btn-icon{
+    @apply shadow-md z-0 transition duration-300 text-xl mt-6
+}
